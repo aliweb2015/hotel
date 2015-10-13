@@ -1,0 +1,781 @@
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Orbitron:900);
+@font-face {
+    font-family: 'Terminat';
+    src: url("../fonts/Terminat.TTF") format("truetype");
+}
+body{
+
+    overflow-x: hidden;
+    background-color:#222 ;
+
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+
+/* ==========================================================================
+                                       Navbar
+   ========================================================================== */
+.navbar-inverse .navbar-nav > li > a {
+    color: #9D9D9D;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    font-size: 2.4em;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #948158;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 30px;
+}
+.navbar-wrapper{
+    background-color:#222 ;
+}
+.navigation  {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.header-logo-hlaf-top img{
+    margin-bottom: -2px;
+}
+.header-logo-header img{
+    margin-bottom: 102px ;margin-top: 130px
+}
+nav#Amenu{
+    border-bottom: 0.2em solid #fbfbfb;
+    border-top: 0.2em solid #fbfbfb;
+    border-right: 0.2em solid #fbfbfb;
+    background-color: #090d2f;
+    height: 100px;
+    padding-top:15px;
+    width: 70%;
+    float: left;
+    border-radius: 10px;
+}
+nav#Bmenu{
+    border-bottom: 0.2em solid #fbfbfb;
+    border-top: 0.2em solid #fbfbfb;
+
+    top:-300px ;
+    background-color: #090d2f;
+    width: 65.6%;
+    float: right;
+
+}
+
+.wraper-header{
+   min-height: 760px;
+
+    background: url("../img/hotel-template-bg-header3.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.header-gallery{
+   height: auto;
+}
+.header-inner h1{
+    color:#0f1b3e;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.header-inner p{
+    color: #fbfbfb;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.information {
+    background-color:#060920 ;
+}
+.information  h2, h3 {
+color: #f2f2f2;
+}
+.information   h3 {
+    color: #a3a3a3;
+}
+.information p{
+    color: #e1e1e1;
+}
+/*-------------------------------start of wraper-break--------------------------------*/
+.wraper-break {
+    min-height:170px;
+    background-color: #9d9d9d;
+
+
+
+}
+.wraper-break h1{
+
+
+    color: #111111;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+
+}
+.wraper-break p{
+
+
+    color: #82541b;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+
+}
+.wraper-break-info {
+    min-height: 200px;
+    background-color: #090d2f;
+
+}
+.wraper-break-info h1 {
+padding-top: 50px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#f2f2f2;
+}
+.wraper-break-info p {
+
+    font-family: 'Orbitron', Lucida Grande, Arial;
+    color:#929292;
+}
+
+
+/*-------------------------------END of wraper-break--------------------------------*/
+
+ /*-------------------------------Start of wraper-rooms--------------------------------*/
+.wraper-rooms {
+    min-height:760px;
+
+    padding-top: 0px;
+
+}
+
+
+.wraper-rooms img{
+    border-bottom: 0.3em solid #f2f2f2;
+    border-right: 0.3em solid #f2f2f2;
+    border-left: 0.3em solid #f2f2f2;
+}
+.room-description{
+    padding: 60px 30px ;
+}
+.room-description-inner{
+    padding: 30px 30px ;background-color: #fbfbfb
+}
+.room-description-icon1{
+    padding: 30px 30px
+}
+.room-description-icon2{
+    padding: 30px 30px
+}
+.gallery-event:hover {
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+
+    -moz-opacity: 0.60;
+    opacity: 0.60;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter:alpha(opacity=60);
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+.gallery{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background: #090d2f;
+    padding: 0px 0px;
+    border-right: 0.4em solid #090d2f;
+    border-top: 0.4em solid #090d2f;
+
+}
+
+.gallery:hover {
+
+
+
+
+    opacity: 0.6;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+/*-------------------------------END of wraper-rooms--------------------------------*/
+/*-------------------------------START of amenities--------------------------------*/
+.wraper-amenities{
+    min-height: 760px;
+}
+.wraper-amenities h1, h3,h2{
+    color: #f2f2f2;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.wraper-amenities p{
+    color: #f2f2f2;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+/*-------------------------------END of amenities--------------------------------*/
+/*-------------------------------START of event--------------------------------*/
+.wraper-events{
+    min-height: 760px;
+
+}
+.wraper-events h1{
+   color: #f9f9f9;
+    padding-top: 20px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.wraper-events h2{
+    color: #f9f9f9;
+    padding-top: 40px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.wraper-events p{
+    color: #f9f9f9;
+    padding-top: 40px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+}
+.wraper-events label{
+    color: #f9f9f9;
+    padding-top: 20px;
+    font-family: 'Orbitron', Lucida Grande, Arial;
+
+}
+
+.breakfast{
+    min-height: 435px;
+    background: url("../img/hotel-template-breakfast.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.lunch{
+    min-height: 435px;
+    background: url("../img/hotel-template-lunch.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.dinner{
+    min-height: 435px;
+    background: url("../img/hotel-template-dinner.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.wedding{
+    min-height: 435px;
+    background: url("../img/hotel-template-wedding.jpg")  no-repeat scroll 0px 0px  ;
+
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+.catering-description{
+    background-color: #020001;
+    -moz-opacity: 0.81;
+    opacity: 0.81;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=81);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=81);
+    filter:alpha(opacity=81);
+    min-height: 435px;
+}
+/*-------------------------------END of event--------------------------------*/
+/*-------------------------------start of Contact--------------------------------*/
+.wraper-Contact {
+    min-height:760px;
+    background:#4e3c26 ;
+    padding:50px 50px 50px 50px;
+}
+.wraper-Contact h1{
+    font-family: 'Oswald', sans-serif;
+    color: #cab485;
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+
+
+.contact-outside{
+    padding-top: 100px;
+    background-color: #222222;
+    color: #f2f2f2;
+   min-height: 619px;
+
+}
+.logo-template{
+    padding-bottom:50px;
+}
+
+.openingtime{
+    padding-top: 50px;
+    min-height: 619px;
+}
+.openingtime h3{
+    color: #9d9d9d;
+}
+.email:hover{
+    opacity: 0.8;
+}
+/*-------------------------------END of Contact--------------------------------*/
+
+/*-------------------------------Start of Gallery--------------------------------*/
+.gallery-title{
+    min-height: 50px;
+    background: #020001;
+
+}
+.gallery-title h3{
+
+    color: #82541b;
+    line-height: 40px;
+}
+.Copyright{
+    min-height: 50px;
+    background: #020001;
+    color: #82541b;
+
+}
+
+.gallery_1_1:hover {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -moz-opacity: 0.60;
+    opacity: 0.60;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter:alpha(opacity=60);
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+.gallery_1{
+    padding: 0px 0px;
+    border-right: 0.4em solid #090d2f;
+    border-top: 0.4em solid #090d2f;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+
+.gallery_1:hover {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -moz-opacity: 0.60;
+    opacity: 0.60;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter:alpha(opacity=60);
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+.gallery-hotel img {
+    padding: 0 0;
+
+    cursor: pointer;
+filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+.gallery-hotel img:hover {
+filter: none; /* IE6-9 */
+-webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    opacity: 0.8;
+
+}
+.gallery-hotel .modal-dialog {width:600px;}
+.gallery-hotel .thumbnail {margin-bottom:6px;}
+.scroll-top {
+    cursor: pointer;
+    position:fixed;
+    bottom:0;
+    right:6%;
+    z-index:100;
+    background: #f2f3f2;
+    font-size:24px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+    color:#222;
+}
+/*-------------------------------END of Gallery--------------------------------*/
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1.9em;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1.3em;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1em;
+    }
+    .navbar-wrapper {
+        background-color: #3f1e14;
+
+        z-index:100;
+    }
+    .navbar-nav{
+        z-index:1000;
+    }
+
+    .aboutus-inner p{
+        font-size: 14px;
+        max-height: 250px;
+
+
+    }
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1em;
+    }
+    .navbar-wrapper {
+        background-color: #3f1e14;
+
+
+    }
+   .navbar-nav{
+       z-index:1000;
+   }
+
+
+.openingtime h1{
+    font-size: 30px;
+}
+
+    .openingtime p {
+        font-size: 16px;
+
+    }
+    .wraper-Contact h1{
+
+        font-size: 40px;
+
+    }
+
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
